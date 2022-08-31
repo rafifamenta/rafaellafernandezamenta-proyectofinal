@@ -1,0 +1,66 @@
+Modificaciones que hice en mis html para la entrega del Desafío SEO
+
+    Index.html:
+-Agregué keywords y description:
+    <meta name="keywords" content="Daniela Calvo,Daniela Calvo make up, maquillaje, makeup, Tucumán,Argentina, estudio de maquillaje,maquilladora profesional,maquilladora argentina,manicura" />
+    <meta name="description" content="Me llamo Daniela Calvo, soy maquilladora y manicura, vivo en Tucumán,te invito a conocer mi estudio" />
+
+-Agregué Favicon:
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+
+-Header: Nav: Agregué el logo de Daniela Calvo Make Up /se repite en los 5 HTML/
+-Modifiqué el footer /se repite en los 5 HTML/
+-Cambié la tipografía general.
+
+    Contacto:
+-Agregué keywords y description:
+    <meta name="keywords" content="Daniela Calvo,Daniela Calvo make up, maquillaje, makeup, Tucumán,Argentina, estudio de maquillaje,maquilladora profesional,maquilladora argentina,manicura" />
+        <meta name="description" content="Me llamo Daniela Calvo, soy maquilladora y manicura.Pedí turno para el servicio que más te guste" />
+
+-Agregué Favicon:
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+
+
+    Estudio:
+-Agregué keywords y description:
+    <meta name="keywords" content="Daniela Calvo,Daniela Calvo make up, maquillaje, makeup, Tucumán,Argentina, estudio de maquillaje,maquilladora profesional,maquilladora argentina,manicura,estudio maquillaje" />
+        <meta name="description" content="Me llamo Daniela Calvo, soy maquilladora y manicura.Te invito a conocer mi estudio" />
+
+-Agregué un H1.
+
+-Agregué Favicon:
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+
+    Servicios:
+-Agregué keywords y description:
+    <meta name="keywords" content="Daniela Calvo,Daniela Calvo make up, maquillaje, makeup, Tucumán,Argentina, estudio de maquillaje,maquilladora profesional,maquilladora argentina,manicura,servicios belleza" />
+        <meta name="description" content="Me llamo Daniela Calvo, soy maquilladora y manicura.Brindo servicios personalizados, elegí el que más te guste" />
+
+-Agregué Favicon:
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+
+-Reemplacé la card de maquillaje artístico por la de "tendencias 2022" 
+-Apliqué cambios en los estilos de los buttons cards.
+
+    Sobre Mi:
+-Agregué keywords y description:
+        <meta name="keywords" content="Daniela Calvo,Daniela Calvo make up, maquillaje, makeup, Tucumán,Argentina, estudio de maquillaje,maquilladora profesional,maquilladora argentina,manicura" />
+        <meta name="description" content="Me llamo Daniela Calvo, soy maquilladora y manicura. Te cuento un poco sobre mi" />
+
+-Agregué un H1.
+-Agregué Favicon:
+    <link rel="icon" href="../public/favicon.ico" type="image/x-icon">
+-Apliqué estilos a mis cards sobre mi.
+-Cambié el estilo del texto para mejorarlo en responsive.
+
+Footer:
+-Cambié el color de background.
+
+SASS:
+    -Agregué un mixin en el body.
+    -Agregué un extend en el footer.
+    -Usé operadores en el footer, nav y en el body
+    -Agregué variable $colores e hice un map-get para obtener diversos valores.
+    -Cree un archivo reset para resetear los estilos aplicados por default en el documento.
+    -Agregué variables para distintos backgrounds colors.
+

@@ -1,0 +1,5 @@
+@mixin titleColors($color,$font,$family) {
+  color: $color;
+  font-size: $font;
+  font-family: $family;
+}

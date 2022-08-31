@@ -1,0 +1,21 @@
+/* estilos de mi nav -se repite en los 5 html*/
+.navbar {
+  background-color: $background-4;
+  font-family: $font-1;
+
+  img {
+    width: 95px;
+    height: 40px;
+    opacity: 0.9;
+  }
+}
+
+.nav-item {
+  padding: 2px;
+  font-size: $font-size3 + 2;
+
+  &:hover {
+    color: map-get($colores,color-f);
+    font-weight: bolder;
+  }
+}

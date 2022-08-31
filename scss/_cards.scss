@@ -1,0 +1,83 @@
+/*estilos del main sobre mi*/
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  img{
+
+  }
+}
+
+.cardsm{
+  &:hover{
+    scale:1.2 ;
+    transition:all .3s ease-in-out;
+  }
+}
+.card-title {
+  font-family: $font-1;
+  text-align: center;
+  color: map-get($colores,color-c);
+  font-weight: 400;
+  font-size: 20px;
+
+
+  text {
+    text-align: center;
+    font-family: $font-1;
+  }
+}
+
+.btn {
+  background-color: map-get($colores,color-e);
+  border: map-get($colores,color-e);
+  color: map-get($colores,color-c);
+  width: 100%;
+  font-family: $font-1;
+
+  &:hover {
+    color: map-get($colores,color-c);
+    background-color: $background-2;
+    font-weight: bolder;
+  }
+}
+
+/*estilos de las cards del index*/
+.cardsindex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: $medida-1;
+  margin-bottom: $medida-1;
+  width: 100%;
+
+  .card{
+    box-shadow: 8px 7px 5px -2px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 8px 7px 5px -2px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 8px 7px 5px -2px rgba(0, 0, 0, 0.58);
+  }
+
+
+  @media screen and(min-width:600px) {
+    .cards-index{
+      width: 18rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .cards-index{
+      margin-bottom: $medida-1;
+    }
+    .card-text {
+      font-size: $font-size2
+    }
+    .card-titlei {
+      font-size: $medida-1;
+      font-weight: bolder;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+@import "mixins";
+
+body {
+  background-color: $background-1;
+}
+
+/*estilos del main página index*/
+.index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/*estilos de main de la pagina estudio*/
+.estudio {
+  padding: $padding-1 - 10;
+  background-color: map-get($colores,color-b);
+
+  h1{
+    font-weight: 400;
+    padding: 10px;
+    margin: 0;
+  }
+
+  h1 {
+    @include titleColors(map-get($colores,color-a),22px,$font-1);
+    text-align: center;
+    @media screen and (max-width: 500px) {
+      .estudio h1 {
+        font-size: $font-size2;
+      }
+    }
+  }
+}
+
+/*galeria de fotos*/
+.row {
+  display: flex;
+  margin: auto;
+  padding: 40px;
+
+  img {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.37);
+  }
+
+}
+
+/*estilos de las cards de la pagina servicios*/
+.card-text {
+  text-align: center;
+}
+
+/*estilos main página sobre mi*/
+.sobremi h1 {
+  text-align: center;
+  background-color: map-get($colores,color-b);
+  font-family: $font-1;
+  font-size: $font-size;
+  color: map-get($colores,color-a);
+  padding: $padding-1;
+  font-weight: 400;
+  margin-bottom: 0px;
+
+  @media screen and (max-width: 500px) {
+    .sobremi h2 {
+      font-size: $font-size3;
+    }
+  }
+}
+
+.containersm {
+  padding: $padding-1;
+  font-size: $font-size3 + 2;
+  font-weight:350;
+  color: map-get($colores,color-f);
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding-bottom: 0px;
+
+  .row{
+    padding-bottom: 0;
+  }
+}
+
+/*estilos del main página de contacto*/
+.contacto h1 {
+  text-align: center;
+  background-color: map-get($colores,color-b);
+  font-family: $font-1;
+  font-size: $font-size;
+  color: map-get($colores,color-f);
+  font-weight: 400;
+  padding: 15px;
+}
+
+/*estilos del formulario de contacto*/
+.form {
+  display: flex;
+  justify-content: center;
+  padding: $medida-2;
+}
+
